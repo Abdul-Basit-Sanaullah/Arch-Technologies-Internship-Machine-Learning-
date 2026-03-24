@@ -96,3 +96,51 @@ Random Forest performed better than Linear Regression, showing that more advance
 - Matplotlib
 
 These projects demonstrate my understanding of supervised learning, preprocessing, model training, and evaluation.
+
+
+# Task 4: Iris Flower Classification
+
+## Overview
+
+In this task, I built a machine learning model to classify iris flowers into different species based on their features like sepal length, sepal width, petal length, and petal width.
+
+---
+
+## What I Did
+
+* Loaded the Iris dataset using sklearn
+* Checked the dataset for missing values
+* Selected features and target variable
+* Split the data into training and testing sets
+* Applied feature scaling
+* Trained a Logistic Regression model
+* Evaluated the model using accuracy
+
+---
+
+## Model Used
+
+* Logistic Regression
+
+---
+
+## Results
+
+* The model achieved an accuracy of **1.0 (100%)** on the test data
+
+---
+
+## Conclusion
+
+The model performed very well and was able to classify iris flowers correctly.
+Since the dataset is simple and well-structured, Logistic Regression was able to achieve very high accuracy.
+
+---
+
+## Tools & Libraries
+
+* Python
+* Pandas, NumPy
+* Scikit-learn
+
+---
