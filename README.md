@@ -40,6 +40,57 @@ This task helped me understand image preprocessing and how CNNs work for image c
 # Technologies Used
 - Python
 - Scikit-learn
+
+# Task 3: Housing Price Prediction
+
+## Overview
+
+In this task, I built a machine learning model to predict house prices using the California Housing dataset. The goal was to understand how different features like income, number of rooms, and location affect housing prices.
+
+---
+
+## What I Did
+
+* Loaded the California housing dataset using sklearn
+* Explored the dataset and checked for missing values
+* Selected relevant features and target variable
+* Split the data into training and testing sets
+* Applied feature scaling
+* Trained a Linear Regression model
+* Evaluated the model using MSE and R² score
+* Improved the model using Random Forest
+
+---
+
+## Models Used
+
+* Linear Regression
+* Random Forest Regressor
+
+---
+
+## Results
+
+* Linear Regression gave moderate accuracy (R² ≈ 0.6)
+* Random Forest performed better (R² ≈ 0.8)
+
+---
+
+## Conclusion
+
+The model was able to predict house prices with reasonable accuracy.
+Random Forest performed better than Linear Regression, showing that more advanced models can capture patterns in the data more effectively.
+
+---
+
+## Tools & Libraries
+
+* Python
+* Pandas, NumPy
+* Scikit-learn
+
+---
+
 - TensorFlow / Keras
 - NumPy
 - Matplotlib
